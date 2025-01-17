@@ -1,10 +1,10 @@
 {
-  "id": "962a2b6e-0555-477b-b8dc-40a7af3f0c8b",
+  "id": "7d41ac90-a09a-49ea-be3a-408dd00a4789",
   "name": "AIPullRequestReview",
   "friendlyName": "AI PR Review",
   "description": "This task use OpenAi API to review and leave comments on PullRequests",
-  "author": "Jacques Saunders",
-  "helpMarkDown": "[More Information](https://github.com/97saundersj/azure-pipeline-ai-pr-review)",
+  "author": "Khoa Nguyen",
+  "helpMarkDown": "",
   "category": "Utility",
   "visibility": [
     "Build"

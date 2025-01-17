@@ -10,11 +10,13 @@ export async function reviewFile(targetBranch: string, fileName: string, httpsAg
 
   const defaultOpenAIModel = 'gpt-3.5-turbo';
   const patch = await git.diff([targetBranch, '--', fileName]);
-
   const instructions = tl.getInput('ai_instructions')
 
   try {
     let choices: any;
+
+    console.log(patch)
+    console.log(openai)
 
     if (openai) {
 
